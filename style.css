@@ -13,6 +13,13 @@ body {
     background-color: #0400BC;
 }
 
+.userinterfaceBackground {
+    background-color: #0400BC;
+    height: 700px;
+    width: 100%;
+    color: white;
+}
+
 nav {
     background-color: #171717;
     height: 33px;
@@ -141,20 +148,30 @@ a:hover{
     font-size: 25px;
     color: white;
 }
+
 .skillsWord{
-color:white;
+color:rgb(255, 255, 255);
+font-size: 50px;
+text-align: center;
+margin-top: -120px;
+display: flex;
+justify-content: center;
 }
 
   .skinnyContainer {
     height: 7px;
     width: 250px;
     background-color: yellow;
-    border-radius: 100px
+    border-radius: 100px;
+    
   }
 
   .skills {
     text-align: center;
     margin-top: -150px;
+     display: flex;
+    flex-wrap: wrap;
+    
     
   }
 
@@ -167,8 +184,23 @@ color:white;
     width: 1200px;
     margin: 100px auto;
     background-color: yellow;
-    margin-top: -5px;
+    margin-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+   
+
   }
+
+  .allImages {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+
   .mySkillInfo{
    font-size: 16px;
    font-family: Arial, Helvetica, sans-serif;
@@ -252,17 +284,9 @@ h3{
     text-align: center;
   }
 
-  .skillsContainer {
-    display: flex;
-    flex-direction: row;
-    
-  }
 
-.allImages {
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: -15px;
-}
+
+
 
 img {
     height: 60px;
@@ -425,12 +449,7 @@ label {
     color: black;;
 }
 
-.userinterfaceBackground {
-    background-color: #0400BC;
-    height: 100vh;
-    width: 100%;
-    color: white;
-}
+
 
 .labelThree{
     color: white;
