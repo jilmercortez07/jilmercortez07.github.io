@@ -68,6 +68,11 @@ a:hover {
     flex-wrap: wrap;
     align-items: center; /* Center vertically */
     justify-content: center;
+    
+}
+
+.imageColumn img{
+    margin: 19px;
 }
 
 .my-image-class {
