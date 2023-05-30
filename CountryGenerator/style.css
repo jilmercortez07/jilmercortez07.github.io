@@ -1,0 +1,124 @@
+body {
+    background-color: #390099;
+  color: white;
+margin: 0px;
+  
+  flex-wrap: wrap;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: #ff5400;
+    margin: 0;
+  padding: 0;
+  margin-top: 0;
+  
+  
+  
+}
+
+h4 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+
+
+@keyframes color{
+0% {
+    background-position: 0 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0 50%;
+    }
+}
+#countryFlag {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0px;
+    margin-top: 80px;
+}
+
+
+
+
+#generateBtn {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+   width: 200px;
+   height:40px;
+    border-radius: 0px;
+    padding: 9px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: linear-gradient(45deg,#3700ff,#0059ff,#1929ff,#2a4aff);
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  
+}
+
+#generateBtn:hover   {
+    background:none;
+    background-color:#ff5400;
+  background-size: 300% 300%;
+  animation: color 12s ease-in-out infinite;
+  
+}
+
+#randomCountry {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 19px;
+    color: #ffbd00;
+}
+
+
+
+.logo {
+    color: aliceblue;
+  font-size: 25px;
+  font-family: 'Kanit', sans-serif;
+  padding-top: 1px;
+  margin-left: 10px;
+  
+}
+
+.float-container {
+    display: flex;
+    margin-top: 40px;
+   display: flex;
+   flex-wrap: wrap;
+    
+  }
+  
+  .float-child {
+    flex: 1;
+    
+  }
+  
+
+  .countryInfo {
+    margin-top: 100px;
+  text-align: center;
+  margin-top: 150px;
+
+  margin-left: -50px;
+       
+  }
+
+  .flagInfo {
+    margin-left: 10px;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
