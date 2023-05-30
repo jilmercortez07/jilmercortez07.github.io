@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', function() {
         nombre: 'Random Country Generator',
         date: 'May 16, 2023',
         image: "./images/random.png",
-        link: "https://jilmercortez07.github.io"
+        link: "./CountryGenerator/index.html"
       },
       person2: {
         nombre: 'Bitcoin Halve Countdown',
         date: 'May 16, 2023',
         image: "./images/Bitcoin.png",
-        link: ""
+        link: "./Bitcoin Halve Countdown/index.html"
       },
       person3: {
         nombre: '',
