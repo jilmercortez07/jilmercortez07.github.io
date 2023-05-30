@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nombre: 'Bitcoin Halve Countdown',
         date: 'May 16, 2023',
         image: "./images/Bitcoin.png",
-        link: "./Bitcoin Halve Countdown/index.html"
+        link:  "./BitcoinHalveCountdown/index.html"
       },
       person3: {
         nombre: '',
