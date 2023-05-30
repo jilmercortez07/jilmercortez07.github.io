@@ -1,13 +1,10 @@
 body {
-    
     margin: 0px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(0, 0, 0);
-
 }
 
 .backgroundColor {
-
     width:100%;
     height: 700px;
     background-color: #0400BC;
@@ -47,13 +44,12 @@ nav ul {
     font-size: 14px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
-
 }
 
-a:hover{
+a:hover {
     color: yellow;
 }
 
@@ -61,20 +57,18 @@ a:hover{
     height: 240px;
     width:9vh;
     background-color: yellow;
-    position: absolute;
+    position: fixed;
     top: 100px;
     right: 0;
 }
 
-.imageColumn{
+.imageColumn {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center; /* Center vertically */
     justify-content: center;
-
 }
-
 
 .my-image-class {
     height: 40px;
@@ -84,19 +78,14 @@ a:hover{
     flex-wrap: wrap;
     margin-top: 50px;
     margin-left: 15px;
- 
- 
 }
 
 .classOne{
     height: 45px;
     width: auto;
- margin-left: 1px;
- margin-top: 50px;
-
-
+    margin-left: 1px;
+    margin-top: 50px;
 }
-
 
 .mainHeader {
     color: white;
@@ -105,27 +94,24 @@ a:hover{
     margin-right: 100px;
 }
 
-
-
 .float-container {
     display: flex;
    flex-direction: column; 
-   }
-  .float-child {  
-    margin-left: 60px;
-    
 }
+  
+.float-child {  
+    margin-left: 60px;
+}
+
 .myName {
     font-size: 65px;
     color: white;
 }
 
 .myInfoContainer {
-  
     margin-top: 150px;
-  
-    
 }
+
 .myInfo {
     margin-top: -19px;
     line-height: 2;
@@ -134,14 +120,12 @@ a:hover{
 
 .meContainer {
     margin-top: 30px;
-  
-   
-  }
+}
+
 .first-text {
     line-height: 1.5;
     color:yellow;
     text-align: right;
-    
 }
 
 .front {
@@ -149,37 +133,34 @@ a:hover{
     color: white;
 }
 
-.skillsWord{
-color:rgb(255, 255, 255);
-font-size: 50px;
-text-align: center;
-margin-top: -120px;
-display: flex;
-justify-content: center;
+.skillsWord {
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
 }
 
-  .skinnyContainer {
+.skinnyContainer {
     height: 7px;
     width: 250px;
     background-color: yellow;
     border-radius: 100px;
-    
-  }
+}
 
-  .skills {
+.skills {
     text-align: center;
     margin-top: -150px;
      display: flex;
     flex-wrap: wrap;
-    
-    
-  }
+}
 
-  h2{
+h2 {
     font-size: 40px;
-  }
+}
 
-  .skillsContainer {
+.skillsContainer {
     height: 100px;
     width: 1200px;
     margin: 100px auto;
@@ -187,9 +168,7 @@ justify-content: center;
     margin-top: 140px;
     display: flex;
     flex-wrap: wrap;
-   
-
-  }
+}
 
   .allImages {
     margin-left: auto;
@@ -197,31 +176,32 @@ justify-content: center;
     margin-top: -15px;
     display: flex;
     flex-wrap: wrap;
-    
- }
+}
 
+.skillInfoParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .mySkillInfo{
+.SkillInfo {
    font-size: 16px;
    font-family: Arial, Helvetica, sans-serif;
    line-height: 3;
-   margin-top: -20px;
-  }
+}
 
-  .middle {
+.middle {
     text-align: center;
     color: #0400BC;
-  }
+}
 
-
-
-  .boxes {
+.boxes {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     margin-top: 70px;
-
-   
 }
 
 .FrontEnd {
@@ -230,9 +210,6 @@ justify-content: center;
     margin-top: 120px;
     color: rgb(255, 255, 255);
 }
-
-
-
 
 .interface {
     text-align: center;
@@ -245,19 +222,14 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    
     margin-top: 60px;
 }
-
 
 h3{
     font-size: 50px;
     text-align: center;
     margin-top: 100px;
 }
-
-
-
 
 .label {
     color: white;
@@ -268,7 +240,6 @@ h3{
     color: white;
     margin: 5px; 
 }
-
 
 .box-wrapper {
     display: flex;
@@ -284,20 +255,20 @@ h3{
     text-align: center;
   }
 
-
-
-
-
 img {
     height: 60px;
     width: auto; 
     margin: 25px;
 }
 
-.pic{
+.pic {
     height: 70px;
     width: auto; 
     margin: 25px;
+}
+
+.picTwo {
+    margin-top: 35px;
 }
 
 .picTwo:hover {
@@ -305,7 +276,6 @@ img {
     width: auto; 
     margin: 25px;
     margin-top: -30px;
-    
 }
 
 .pic:hover {
@@ -313,13 +283,7 @@ img {
     width: auto; 
     margin: 25px;
     margin-top: -30px;
-    
 }
-
-
-
-
-
 
 .contactMe {
     text-align: center;
@@ -349,19 +313,16 @@ form {
 
 input[type="text"],
 textarea,
- .submitButton{
-  width: 100%;
+.submitButton {
+    width: 100%;
     margin:7px;
 }
-
 
 textarea{
     margin-top: 10px;
     background-color: #0400BC;
     color: white;
-    
 }
-
 
 label {
     color: black;
@@ -383,19 +344,15 @@ label {
     align-items: center;
     display: flex;
     justify-content: center;
-    
 }
 
 .frontendHeader, h1 {
-   flex-direction: column;
+    flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: -130px;
 }
-
-
-
 
 .frontendHeaderThree, h1 {
     flex-direction: column;
@@ -405,36 +362,29 @@ label {
     margin-top: 70px;
 }
 
-
-
 .full-screen-image{
     height: 100px;
     width:100px
 }
 
-
-  
-  
-
 .square {
-   
     height: 300px;
     width: 300px;
     background-color: white;
     margin: 30px;
     border: 1px solid #474747; 
-
-    
-
 }
 
+.squareFrontEnd {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(17, 17, 17);
+    margin: 30px;
+}
 
 .square-image {
     height: 250px;
     width: auto;
-   
-  
-  
 }
 
 .squareThree {
@@ -449,8 +399,6 @@ label {
     color: black;;
 }
 
-
-
 .labelThree{
     color: white;
 }
@@ -462,7 +410,6 @@ label {
     transition: transform 0.3s ease-in-out;
 }
 
-
 .modal-container {
     display: none;
     position: fixed;
@@ -473,32 +420,28 @@ label {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 9999;
     overflow: auto;
-  }
+}
   
-  .modal-content {
+.modal-content {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-  }
+}
   
-  .modal-open {
+.modal-open {
     display: flex;
     justify-content: center;
     margin-top: 10px;
-    
-
-  }
+}
   
-  .modal-image {
+.modal-image {
     height: 700px;
     width: auto;
-   
-  }
+}
   
  
 .bottomPage {
-    
     height: 500px;
     width: 100%;
     background-color:#0400BC;
@@ -506,15 +449,13 @@ label {
     display: flex;
     margin-top: 200px;
     flex-direction: column;
-    
 }
 
-.bottom{
-color: white;
-font-size: 70px;
-text-align: center;
-margin-top: -100px;
-
+.bottom {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -100px;
 }
 
 .footer {
@@ -537,11 +478,10 @@ margin-top: -100px;
     width: auto;
 }
 
-.allSkillsContainer{
+.allSkillsContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .allSkills {
@@ -549,4 +489,8 @@ margin-top: -100px;
     flex-direction: column;
     margin: 20px;
     text-align: center;
+}
+
+.labelFrontEnd {
+    line-height: 2;
 }
