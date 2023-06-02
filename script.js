@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
       person3: {
         nombre: 'Nike Homepage and Shopping cart',
         date: 'June 2, 2023',
-        image: "./images/Bitcoin.png",
-        link: "./Nike/index.html"
+        image: "./images/nike.png",
+        link: "./Nike/nike.html"
       },
       person4: {
         nombre: 'jilmer',
@@ -253,6 +253,12 @@ document.addEventListener('DOMContentLoaded', function() {
       image: "./images/Bitcoin.png",
       link:  "./BitcoinHalveCountdown/index.html"
     },
+    project3 :{
+      nombre: 'Nike Homepage and Shopping cart',
+      date: 'June 2, 2023',
+      image: "./images/nike.png",
+      link: "./Nike/nike.html"
+    }
    
   };
 
