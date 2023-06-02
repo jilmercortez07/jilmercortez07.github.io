@@ -16,9 +16,10 @@ document.addEventListener('DOMContentLoaded', function() {
         link:  "./BitcoinHalveCountdown/index.html"
       },
       person3: {
-        nombre: '',
-        date: '',
-        image: ""
+        nombre: 'Nike Homepage and Shopping cart',
+        date: 'June 2, 2023',
+        image: "./images/Bitcoin.png",
+        link: "./Nike/index.html"
       },
       person4: {
         nombre: 'jilmer',
