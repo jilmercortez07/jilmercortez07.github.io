@@ -1,25 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    margin: 0px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
     color: rgb(0, 0, 0);
+    height: 1200px;
+    font-family:Arial, Helvetica, sans-serif
 }
 
-.backgroundColor {
-    width:100%;
-    height: 700px;
-    background-color: #0400BC;
-}
-
-.userinterfaceBackground {
-    background-color: #0400BC;
-    height: 700px;
-    width: 100%;
+.shop {
+    background-color: rgb(255, 255, 255);
     color: white;
+    height: 100%;
 }
 
 nav {
-    background-color: #171717;
-    height: 33px;
+   margin-top: 10px;
+    height: 60px;
     width: 100%;
     color: white;
     display: flex;
@@ -30,18 +29,569 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 8;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 10px;
-  }
+    list-style: none;  
+}
 
-.navigation li {
+nav li {
+    text-align: center;
+    display: flex;
     margin: 30px;
+}
+
+li:hover {
+    color: rgb(255, 111, 0);
+}
+
+nav .logo {
+    margin-right: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .input {
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 100px;
+    text-align: center;
+    width: 130px;
+    border-style: none;
+    height: 35px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+}
+
+nav .input::placeholder {
+    color: rgb(219, 219, 219);
+}
+
+.BigContainer {
+    height: 550px;
+    background-color: white;
+    width: 100%;
+    
+}
+
+ .logo img {
+    height: 15px;
+    width: auto;   
+}
+ 
+.womanScarf {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    left:80px;
+    top: 120px;
+}
+
+.womanScarf:hover {
+    height: 650px;
+    animation: floatingEffect 4s infinite linear;
+    z-index: 2;
+}
+
+@keyframes floatingEffect {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+
+.shoes {
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: 520px;
+    top: 100px;
+    transition: transform 2s ease-in-out ;
+    
+}
+
+.shoes:hover {
+    height: 450px;
+    z-index: 12;
+    animation: floatingEffect 4s infinite linear;
+}
+
+@keyframes floatingEffect {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+    
+.womenBlue {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    left: 1050px;
+    top: 200px;
+    z-index: 2;
+}
+
+.womenBlue:hover {
+    z-index: 12;
+    animation: floatingEffect 4s infinite linear;
+}
+
+@keyframes floatingEffect {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+ 
+
+.twoPeople {
+    height: 500px;
+    width: auto;
+    position: absolute;
+    left: 700px;
+    top: 450px;
+    z-index: 1;
+}
+
+.twoPeople:hover{
+    z-index: 12;
+    animation: floatingEffect 4s infinite linear;
+}
+
+@keyframes floatingEffect {
+    0% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+ 
+.nikeLogo {
+    height: 100px;
+    width: auto;
+}
+
+.nikeContainer  {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width:200px;
+    position: absolute;
+    left: 650px;
+    z-index: 5;
+}
+
+.nikeLogos  {
+    display: flex;
+    flex-direction: column;
+    width:200px;
+}
+
+.nikeLogo  img {
+    margin: 10px;
+    width:200px;
+}
+
+.container img {
+    margin: 100px;
+}
+
+.containerQuote {
+    display: flex;
+    flex-direction: column;
+}
+
+.bigtext{
+    position: absolute;
+    font-size: 100px;
+    top: 450px;
+    z-index: 1;
+    color: white;
+}
+
+.inverted {
+   margin-top: 700px;
+   color: rgb(77, 77, 77);
+   font-size: 100px;
+}
+
+.mainTitle {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.titleColumn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.title {
+    font-size: 30px;
+    color: rgb(21, 21, 21);
+}
+
+.price {
+    font-size: 20px;
+    color: rgb(21, 21, 21);
+    margin-top: 10px;
+}
+
+.fontTitle {
+    margin-top: 150px;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.line {
+    height: 1px;
+    width: 1015px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: linear-gradient(to right, #F3ECD3, #ff6600, #d6bb56, #ff6600);
+    background-size: 200% auto;
+    animation: gradientMove 7s linear infinite;
+}
+  
+  @keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.men {
+    margin-top: 8px;
+    margin-left: 20px;
+    color: rgb(21, 21, 21);
+}
+
+.pickSize {
+    color: rgb(21, 21, 21);
+}
+
+.sizeGuide {
+    color: rgb(21, 21, 21); 
+}
+
+.shoeImages {
+    height: 80px;
+    width: 80px;
+    margin: 7.5px;
+    border-radius: 2px;
+}
+
+button.size:hover {
+    border-color: rgb(255, 128, 0);
+    border-style:solid;
+}
+
+button.addtoBag{
+    margin-top: 50px;
+    height: 55px;
+    width: 350px;
+    border-radius: 0px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border-style: none;
+}
+
+button.addtoBag:hover {
+    background-color: #ff6600;
+}
+
+button.addtoBag.clicked {
+    background-color:#ff6600;
+}
+
+button.favorite {
+    margin-top: 10px;
+    height: 55px;
+    width: 350px;
+    border-radius: 0px;
+    border: 1px solid rgb(24, 24, 24);;
+    background-color: white;
+}
+
+button.favorite:hover {
+    border: 2px solid #ff6600;
+    
+}
+
+.description {
+    color: rgb(131, 131, 131);
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: 250px;
+    margin-left: 150px;
+   
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.reviews {
+    color: black;
+    font-size: 18px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+img.stars {
+    height: 23px;
+    width: 115px;
+    margin-left: 145px;
+    margin-top: -10px;
+}
+
+.model {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.model img {
+    height: auto;
+    width: 1300px;
+}
+ 
+.cushion {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.modelContainer {
+    margin-top: 100px;
+}
+
+.cushionDetails {
+    color: rgb(98, 98, 98);
+    font-size: 20px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.mightLikeContainer {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    margin-left: 60px;
+}
+
+#mightLike {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: row;    
+}
+
+.mightLikeText {
+    color: black;
+    font-size: 19px;
+    margin-left: 70px;
+}
+
+.shoeMightLikeImage {
+    width: 400px;
+    height: auto;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+.nameOfShoe {
+    color: black;
+}
+
+.gender {
+    color: black;
+}
+
+.priceShoe {
+    color: black;
+}
+
+.footerContainerMain {
+    display: flex;
+   flex-wrap: wrap;
+    height:400px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    margin-top: 500px;
+}
+
+.footerContainer{
+    display: flex;
+   flex-wrap: wrap;
+    height:400px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+}
+
+.footerDetails {
+    margin-right: 800px;
+}
+
+.footerDetails li {
+    margin-bottom: 10px;
+}
+
+.footerList {
+    list-style: none;
+    line-height: 2;
+    color:#F3ECD3;
     font-size: 14px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.greyText {
+    color: rgb(188, 188, 188);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.greyText li{
+    margin-bottom: 10px;
+}
+.shoeName {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.genderName {
+    color: rgb(169, 169, 169);
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.priceShoe {
+    color: black;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+.skyLimit {
+    margin-bottom: 150px;
+}
+
+.mainImage {
+    height: auto;
+    width: 700px;
+    margin-left: 10px;
+}
+
+.size {
+    margin: 5px;
+    margin-right: 0;
+    height: 55px;
+    width: 65px;
+    border-radius: 0px;
+    border-style: none;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-size: 14px;
+}
+
+.shoeContainerSize {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+   
+}
+
+#shoeColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.columnImage {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.columnImage:hover {
+    border: #ff6600  solid;
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.selectContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 50px;
+} 
+
+.sizeInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.sizeGuide {
+    margin-left: 370px;
 }
 
 a {
@@ -49,453 +599,27 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: yellow;
-}
-
-.links {
-    height: 240px;
-    width:9vh;
-    background-color: yellow;
-    position: fixed;
-    top: 100px;
-    right: 0;
-}
-
-.imageColumn {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center; /* Center vertically */
-    justify-content: center;
-    
-}
-
-.imageColumn img{
-    margin: 19px;
-}
-
-.my-image-class {
-    height: 40px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 15px;
-}
-
-.classOne{
-    height: 45px;
-    width: auto;
-    margin-left: 1px;
-    margin-top: 50px;
-}
-
-.mainHeader {
-    color: white;
-    margin-left: 40px;
-    display:flex;
-    margin-right: 100px;
-}
-
-.float-container {
-    display: flex;
-   flex-direction: column; 
-}
-  
-.float-child {  
-    margin-left: 60px;
-}
-
-.myName {
-    font-size: 65px;
-    color: white;
-}
-
-.myInfoContainer {
-    margin-top: 150px;
-}
-
-.myInfo {
-    margin-top: -19px;
-    line-height: 2;
-    color: white;
-}
-
-.meContainer {
-    margin-top: 30px;
-}
-
-.first-text {
-    line-height: 1.5;
-    color:yellow;
-    text-align: right;
-}
-
-.front {
-    font-size: 25px;
-    color: white;
-}
-
-.skillsWord {
-    color:rgb(255, 255, 255);
-    font-size: 50px;
-    text-align: center;
-    margin-top: -120px;
-    display: flex;
-    justify-content: center;
-}
-
-.skinnyContainer {
-    height: 7px;
-    width: 250px;
-    background-color: yellow;
-    border-radius: 100px;
-}
-
-.skills {
-    text-align: center;
-    margin-top: -150px;
-     display: flex;
-    flex-wrap: wrap;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-.skillsContainer {
-    height: 100px;
-    width: 1200px;
-    margin: 100px auto;
-    background-color: yellow;
-    margin-top: 140px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-  .allImages {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skillInfoParent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.SkillInfo {
-   font-size: 16px;
-   font-family: Arial, Helvetica, sans-serif;
-   line-height: 3;
-}
-
-.middle {
-    text-align: center;
-    color: #0400BC;
-}
-
-.boxes {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 70px;
-}
-
-.FrontEnd {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 120px;
-    color: rgb(255, 255, 255);
-}
-
-.interface {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 120px;
-    color: rgb(255, 255, 255);
-}
-
-.boxContainerDirection {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    margin-top: 60px;
-}
-
-h3{
-    font-size: 50px;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.label {
-    color: white;
-    margin: 5px;
-}
-
-.labelThree {
-    color: white;
-    margin: 5px; 
-}
-
-.box-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .containerr {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-img {
-    height: 60px;
-    width: auto; 
-    margin: 25px;
-}
-
-.pic {
-    height: 70px;
-    width: auto; 
-    margin: 25px;
-}
-
-.picTwo {
-    margin-top: 35px;
-}
-
-.picTwo:hover {
-    height: 70px;
-    width: auto; 
-    margin: 25px;
-    margin-top: -30px;
-}
-
-.pic:hover {
-    height: 80px;
-    width: auto; 
-    margin: 25px;
-    margin-top: -30px;
-}
-
-.contactMe {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 120px;
-}
-
-.contactContainer {
-    height: 100vh; 
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-   
-}
-
-form {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width: 500px;
-    max-width: 600px;
-    margin-top: -400px
-
-}
-
-input[type="text"],
-textarea,
-.submitButton {
-    width: 100%;
-    margin:7px;
-}
-
-textarea{
-    margin-top: 10px;
-    background-color: #0400BC;
-    color: white;
-}
-
-label {
+.klara {
     color: black;
-    font-size: 13px;
-    margin-left: 8px;
+    margin-top: 25px;
 }
 
-.submitButton {
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-    border-style: none;
-    height: 30px;
+.smallLogoSize {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
 }
 
-.frontendHeader {
-    height: 100vh; 
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.frontendHeader, h1 {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: -130px;
-}
-
-.frontendHeaderThree, h1 {
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-}
-
-.full-screen-image{
-    height: 100px;
-    width:100px
-}
-
-.square {
-    height: 300px;
-    width: 300px;
-    background-color: white;
-    margin: 30px;
-    border: 1px solid #474747; 
-}
-
-.squareFrontEnd {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(17, 17, 17);
-    margin: 30px;
-}
-
-.square-image {
-    height: 250px;
-    width: auto;
-}
-
-.squareThree {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(17, 17, 17);
-    margin: 30px;
-    border: 1.5px solid #161616; 
-}
-
-.label {
-    color: black;;
-}
-
-.labelThree{
-    color: white;
-}
-
-.big-image {
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease-in-out;
-}
-
-.modal-container {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
-    overflow: auto;
-}
-  
-.modal-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-  
-.modal-open {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-  
-.modal-image {
-    height: 700px;
-    width: auto;
-}
-  
- 
-.bottomPage {
-    height: 500px;
-    width: 100%;
-    background-color:#0400BC;
-    justify-content: center;
-    display: flex;
-    margin-top: 200px;
-    flex-direction: column;
-}
-
-.bottom {
-    color: white;
-    font-size: 70px;
-    text-align: center;
-    margin-top: -100px;
-}
-
-.footer {
-    color: white;
-    text-align: center;
-    line-height: 2;
-    font-weight:100;
-    margin-top: -10px;
-}
-
-.userInterfaceInfo {
-    text-align: center;
-    justify-content: center;
-    font-weight: 100;
-    line-height: 2;
-}
-
-.nike {
-    height: 200px;
-    width: auto;
-}
-
-.allSkillsContainer {
+.smallLogos {
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
-.allSkills {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+h3 {
+    margin-top: 200px;
     text-align: center;
 }
 
-.labelFrontEnd {
-    line-height: 2;
+.noHover:hover {
+    color: #F3ECD3;
 }
