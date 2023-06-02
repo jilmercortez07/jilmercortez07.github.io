@@ -75,7 +75,7 @@ nav .input::placeholder {
 
 .BigContainer {
     height: 550px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     
 }
