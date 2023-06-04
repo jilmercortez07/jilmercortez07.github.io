@@ -123,7 +123,8 @@ img.logo  {
   }
 
 
-
+  
+  
 
  
 .womanScarf {
@@ -925,3 +926,43 @@ h3 {
  margin-left: 20px;
  text-align: center;
     }}
+
+
+    @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+        header {
+            flex-direction: row;
+            height: 90px;
+            
+            position:relative;
+       
+         max-width: 100%;
+          }
+          
+      
+          
+         nav {
+          display: none;
+         }
+      
+          .shopCartContainer {
+             
+              align-items: center;
+          }
+      
+          .input {
+              align-items: center;
+              margin-top: 10px;
+              margin-left:15px;
+             width: 300px;
+          }
+          
+          .shoppingCartImage {
+      
+          }
+      
+          .cartNumber {
+              align-items: center;
+              
+          }
+      
+      }
