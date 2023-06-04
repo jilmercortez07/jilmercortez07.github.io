@@ -853,8 +853,19 @@ a {
     width: 55px;
     height: 45px;
     margin-left: -10px;
-    
-    
+    margin: 2px;
+ }
+.buttonSection{
+    align-items: center;
+    margin-left: -50px;
+}
+ button.addtoBag {
+    width: 450px;
+   
+ }
+
+ button.favorite {
+    width: 450px;
    
  }
  
@@ -905,4 +916,6 @@ h3 {
 @media only screen and (max-width: 900px) {
     .description {
  margin-top: 600px;
+ margin-left: 20px;
+ text-align: center;
     }}
