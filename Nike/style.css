@@ -82,17 +82,17 @@ img.logo  {
 
 
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-width: 700px) {
     header {
-      flex-direction: row;
-      height: 90px;
-   max-width: 100%;
-    }
+ height: 170px;
+ position: relative;
+ display: flex;
+ flex-direction: column;
     
-
-    
-   nav {
+ }
+    nav {
     display: none;
+  
    }
 
     .shopCartContainer {
@@ -102,17 +102,30 @@ img.logo  {
 
     .input {
         align-items: center;
-        margin-top: 10px;
-        margin-left:15px;
-       width: 300px;
+       
+       
+       width: 400px;
+       height: 40px;
+       margin-bottom: 20px;
     }
-    
+
+    img.logo {
+        width: 70px;
+        height: auto;
+        margin-top: 20px;
+    }
 
     .cartNumber {
         align-items: center;
         
     }
 
+    .shopCartContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
 
   }
 
