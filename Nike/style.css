@@ -86,7 +86,7 @@ img.logo  {
     header {
       flex-direction: row;
       height: 90px;
-   max-width: 500px;
+   max-width: 100%;
     }
     
 
