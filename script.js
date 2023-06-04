@@ -294,3 +294,6 @@ document.addEventListener('DOMContentLoaded', function() {
     square.appendChild(imageLink);
   } 
 });
+
+
+

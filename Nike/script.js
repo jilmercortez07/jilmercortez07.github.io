@@ -166,7 +166,6 @@ shoeColumn.addEventListener('click', (event) => {
     }
 });
 
-
 // buttons 
 
 const buttonsDiv = document.getElementById('sizeSelect');
@@ -206,6 +205,25 @@ setShoeDescription('Nothing as fly, nothing as comfortable, nothing as proven.<b
 
 
 
-//WOMEN SECTION
+//Add to bag 
+const numberAppearOnCart = document.getElementById('numberAddedToCart')
+const addToBag = document.getElementById('addtoBag')
+let clickCount = 0;
+
+addtoBag.addEventListener('click', () => {
+  clickCount++
+  
+  const box = document.createElement('div')
+  box.classList.add('cartNumber')
+  box.textContent = clickCount
+
+  numberAppearOnCart.innerHTML ='';
+  numberAppearOnCart.appendChild(box)
+
+  console.log('Added To Bag ' + clickCount)
+
+})
+
+
 
 

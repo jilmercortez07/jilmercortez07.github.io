@@ -16,74 +16,121 @@ body {
     height: 100%;
 }
 
-nav {
-   margin-top: 10px;
+.input {
+    color: rgb(172, 172, 172);
+    background-color: rgb(43, 43, 43);
+    border-style: none;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
     height: 60px;
     width: 100%;
-    color: white;
+    position: fixed;
+
+}
+
+.makeCenter {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 8;
-    background-color: rgba(0, 0, 0, 0.9);
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
+ 
 }
 
-nav ul {
-    display: flex;
-    list-style: none;  
-}
+.makeCenter li {
+    margin-right: 25px;
+    list-style: none;
 
-nav li {
-    text-align: center;
-    display: flex;
-    margin: 30px;
-}
-
-li:hover {
-    color: rgb(255, 111, 0);
-}
-
-nav .logo {
-    margin-right: 350px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-nav .input {
-    margin-left: 300px;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 100px;
-    text-align: center;
-    width: 130px;
-    border-style: none;
-    height: 35px;
-    background-color: rgb(75, 75, 75);
-    color: white;
-}
-
-nav .input::placeholder {
-    color: rgb(219, 219, 219);
-}
-
-.BigContainer {
-    height: 550px;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
     
 }
-
- .logo img {
-    height: 15px;
-    width: auto;   
+.shoppingCartImage {
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
+.cartNumber {
+    color:white;
+    background-color: #ff6600;
+    height: 25px;
+    width: 25px;
+    font-size: 12px;
+    margin-left:-5px;
+    border-radius: 5px;
+}
+
+img.logo  {
+    height: auto;
+    width: 35px;
+    margin-left: 10px;
+}
+
+.shopCartContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      position:relative;
+ 
+   max-width: 96%;
+    }
+    
+    .makeCenter {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+    
+    .makeCenter li {
+      margin-top: 15px;
+    }
+
+    .shopCartContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input {
+        align-items: center;
+        margin-top: 10px;
+        margin-left:15px;
+       width: 300px;
+    }
+    
+    .shoppingCartImage {
+   margin-top: 30px;
+    }
+
+    .cartNumber {
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    img.logo {
+        margin-top: 10px;
+    }
+  }
+
+
+
+
  
 .womanScarf {
     height: 600px;
@@ -241,12 +288,28 @@ nav .input::placeholder {
    font-size: 100px;
 }
 
+
+
+
+.BigContainer {
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  
+    
+}
+
 .mainTitle {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
 
 }
+.fontTitle {
+    margin-top: 120px;
+    display: flex;
+}
+
 
 .titleColumn {
     display: flex;
@@ -265,10 +328,7 @@ nav .input::placeholder {
     margin-top: 10px;
 }
 
-.fontTitle {
-    margin-top: 120px;
-    display: flex;
-}
+
 
 .row {
     display: flex;
@@ -299,19 +359,67 @@ nav .input::placeholder {
     }
 }
 
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .line {
+      width: 100px;
+      
+    }
+
+    .titleColumn {
+        margin-left: 10px;
+        
+        margin-top: 20px;
+        
+    }
+    .row {
+       margin-top: 20px;
+
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .titleColumn {
+        margin-left: 10px;
+        margin-top: -70px;
+        
+    }
+    .row {
+        margin-top: -65px;
+
+    }
+    
+}
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .men {
     margin-top: 8px;
     margin-left: 20px;
     color: rgb(21, 21, 21);
 }
 
-.pickSize {
-    color: rgb(21, 21, 21);
-}
 
-.sizeGuide {
-    color: rgb(21, 21, 21); 
-}
 
 .shoeImages {
     height: 80px;
@@ -404,6 +512,8 @@ img.stars {
 .model img {
     height: auto;
     width: 1300px;
+    
+ 
 }
  
 .cushion {
@@ -424,6 +534,13 @@ img.stars {
     text-align: center;
 }
 
+
+@media only screen and (max-width: 1300px) {
+    .model img {
+        max-width: 100%;
+        
+    }
+}
 .mightLikeContainer {
     display: flex;
     flex-direction: row;
@@ -462,6 +579,10 @@ img.stars {
     color: black;
 }
 
+
+
+
+
 .footerContainerMain {
     display: flex;
    flex-wrap: wrap;
@@ -471,40 +592,88 @@ img.stars {
     margin-top: 500px;
 }
 
-.footerContainer{
-    display: flex;
-   flex-wrap: wrap;
-    height:400px;
-    background-color: rgb(26, 26, 26);
-    width: 100%;
-}
 
-.footerDetails {
-    margin-right: 800px;
-}
+
+
 
 .footerDetails li {
     margin-bottom: 10px;
+    color: white;
 }
 
 .footerList {
     list-style: none;
     line-height: 2;
-    color:#F3ECD3;
+    color:#ffffff;
     font-size: 14px;
     margin-top: 30px;
     margin-right: 20px;
 }
+.footerDetails {
+    margin-right: 700px;
+    justify-content: space-between;
+}
+
+.details {
+    
+}
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+
+    height:400px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    
+    
+}
 
 .greyText {
-    color: rgb(188, 188, 188);
+    
     font-size: 12px;
     margin-top: 10px;
 }
 
 .greyText li{
     margin-bottom: 10px;
+    color: rgb(255, 255, 255);
 }
+
+
+@media only screen and (max-width: 1100px) {
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .footerContainer {
+        flex-direction: column;
+        height: auto;
+    }
+
+.details {
+
+
+}
+
+.footerList {
+
+    margin-left: 0px;
+    flex-direction: column;
+}
+
+.footerDetails {
+    margin-right: 0px;
+}
+}
+
+
+
+
+
+
 .shoeName {
     color: black;
     margin-left: 10px;
@@ -528,53 +697,29 @@ img.stars {
     margin-bottom: 150px;
 }
 
-.mainImage {
-    height: auto;
-    width: 700px;
-    margin-left: 10px;
-}
 
-.size {
-    margin: 5px;
-    margin-right: 0;
-    height: 55px;
-    width: 65px;
-    border-radius: 0px;
-    border-style: none;
-    background-color: rgb(72, 72, 72);
-    color: white;
-    font-size: 14px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .shoeContainerSize {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
-   
+    margin-left: 70px;  
 }
 
 #shoeColumn {
     display: flex;
     flex-direction: column;
-}
-
-.columnImage {
-    height: 70px;
-    width: 70px;
-    margin-bottom: 5px;
-    box-sizing: border-box;
-}
-
-.columnImage:hover {
-    border: #ff6600  solid;
-}
-
-.buttonSection {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25px;
-    margin-top: 20px;
-    align-items: center;
 }
 
 .selectContainer {
@@ -590,6 +735,37 @@ img.stars {
     flex-direction: row;
 }
 
+.pickSize {
+    color: rgb(21, 21, 21);
+}
+
+.sizeGuide {
+    color: rgb(21, 21, 21); 
+}
+
+.buttonSection {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+
+.columnImage {
+    height: 70px;
+    width: 70px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.columnImage:hover {
+    border: #ff6600  solid;
+}
+
+
 .sizeGuide {
     margin-left: 370px;
 }
@@ -603,6 +779,102 @@ a {
     color: black;
     margin-top: 25px;
 }
+
+.size {
+    margin: 5px;
+    margin-right: 0;
+    height: 55px;
+    width: 65px;
+    border-radius: 0px;
+    border-style: none;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-size: 14px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+
+
+  
+    
+    .columnImage {
+    
+        margin-right: 5px;
+        box-sizing: border-box;
+    }
+    
+    #mainShoe img {
+     max-width: 100%;
+    
+    }
+    
+
+    .size {
+    
+        height: 45px;
+        width: 55px;
+       
+    
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.shoeContainerSize {
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    margin: 0px;
+    
+}
+
+
+#shoeColumn {
+    display: flex;
+    flex-direction: row;
+}
+
+.columnImage {
+
+    margin-right: 5px;
+    box-sizing: border-box;
+}
+
+#mainShoe img {
+    max-width: 96%;
+
+}
+
+.buttonSection {
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+ 
+}
+
+ .size {
+    width: 55px;
+    height: 45px;
+    align-items: center;
+ }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .smallLogoSize {
     width: 20px;
@@ -623,3 +895,21 @@ h3 {
 .noHover:hover {
     color: #F3ECD3;
 }
+
+.mainImage {
+    height: auto;
+    width: 700px;
+    margin-left: 10px;
+    
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .description {
+        max-width: 100%;
+        margin-top: 600px;
+justify-content: center;
+       margin-right: 100px;
+    }}
