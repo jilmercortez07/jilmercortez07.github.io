@@ -86,9 +86,6 @@ img.logo  {
     header {
       flex-direction: row;
       height: 90px;
-      
-      position:relative;
- 
    max-width: 100%;
     }
     
@@ -110,9 +107,6 @@ img.logo  {
        width: 300px;
     }
     
-    .shoppingCartImage {
-
-    }
 
     .cartNumber {
         align-items: center;
@@ -537,7 +531,7 @@ img.stars {
     }
 
     .model {
-        margin-top: 600px;
+        margin-top: 10px;
     }
 }
 .mightLikeContainer {
@@ -652,10 +646,6 @@ img.stars {
         height: auto;
     }
 
-.details {
-
-
-}
 
 .footerList {
 
@@ -928,41 +918,4 @@ h3 {
     }}
 
 
-    @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-        header {
-            flex-direction: row;
-            height: 90px;
-            
-            position:relative;
-       
-         max-width: 100%;
-          }
-          
-      
-          
-         nav {
-          display: none;
-         }
-      
-          .shopCartContainer {
-             
-              align-items: center;
-          }
-      
-          .input {
-              align-items: center;
-              margin-top: 10px;
-              margin-left:15px;
-             width: 300px;
-          }
-          
-          .shoppingCartImage {
-      
-          }
-      
-          .cartNumber {
-              align-items: center;
-              
-          }
-      
-      }
+    
