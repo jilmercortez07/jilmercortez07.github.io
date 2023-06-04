@@ -89,7 +89,7 @@ img.logo  {
       
       position:relative;
  
-   max-width: 100%%;
+   max-width: 100%;
     }
     
 
@@ -534,6 +534,10 @@ img.stars {
         max-width: 100%;
         
     }
+
+    .model {
+        margin-top: 600px;
+    }
 }
 .mightLikeContainer {
     display: flex;
@@ -843,17 +847,15 @@ a {
 
 }
 
-.buttonSection {
-  align-items: center;
-  justify-content: center;
-  margin-right: 35px;
- 
-}
+
 
  .size {
     width: 55px;
     height: 45px;
-    align-items: center;
+    margin-left: -10px;
+    
+    
+   
  }
  
 }
@@ -902,8 +904,5 @@ h3 {
 
 @media only screen and (max-width: 900px) {
     .description {
-        max-width: 100%;
-        margin-top: 600px;
-justify-content: center;
-       margin-right: 100px;
+ margin-top: 600px;
     }}
