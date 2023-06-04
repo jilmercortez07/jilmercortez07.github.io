@@ -850,15 +850,19 @@ a {
 
 
  .size {
-    width: 45px;
-    height: 35px;
-    margin-left: -10px;
-    margin: 2px;
+    width: 35px;
+    height: 25px;
+   
+    
  }
  .selectContainer  {
 
 align-items: center;
 
+}
+
+.sizeInfo {
+    display: none;
 }
  button.addtoBag {
     width: 450px;
