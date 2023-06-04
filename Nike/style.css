@@ -82,7 +82,7 @@ img.logo  {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-device-width: 700px) {
     header {
       flex-direction: row;
       height: 90px;
