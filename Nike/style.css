@@ -82,53 +82,7 @@ img.logo  {
 
 
 
-@media only screen and (max-width: 700px) {
-    header {
- height: 170px;
- position: relative;
- display: flex;
- flex-direction: column;
- max-width: 100%;
-    
- }
-    nav {
-    display: none;
-  
-   }
 
-    .shopCartContainer {
-       
-        align-items: center;
-    }
-
-    .input {
-        align-items: center;
-       
-       
-       width: 400px;
-       height: 40px;
-       margin-bottom: 20px;
-    }
-
-    img.logo {
-        width: 70px;
-        height: auto;
-        margin-top: 20px;
-    }
-
-    .cartNumber {
-        align-items: center;
-        
-    }
-
-    .shopCartContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-
-  }
 
 
   
@@ -366,38 +320,7 @@ img.logo  {
 
 
 
-@media only screen and (max-width: 1200px) {
-    .line {
-      width: 100px;
-      
-    }
 
-    .titleColumn {
-        margin-left: 10px;
-        
-        margin-top: 20px;
-        
-    }
-    .row {
-       margin-top: 20px;
-
-    }
-  }
-
-
-@media only screen and (max-width: 600px) {
-    .titleColumn {
-        margin-left: 10px;
-        margin-top: -70px;
-        
-    }
-    .row {
-        margin-top: -65px;
-
-    }
-    
-}
-  
  
   
 
@@ -538,16 +461,7 @@ img.stars {
 }
 
 
-@media only screen and (max-width: 1300px) {
-    .model img {
-        max-width: 100%;
-        
-    }
 
-    .model {
-        margin-top: 10px;
-    }
-}
 .mightLikeContainer {
     display: flex;
     flex-direction: row;
@@ -645,36 +559,6 @@ img.stars {
     margin-bottom: 10px;
     color: rgb(255, 255, 255);
 }
-
-
-@media only screen and (max-width: 1100px) {
-
-    footer {
-        display: flex;
-        flex-direction: column;
-    
-    }
-
-    .footerContainer {
-        flex-direction: column;
-        height: auto;
-    }
-
-
-.footerList {
-
-    margin-left: 0px;
-    flex-direction: column;
-}
-
-.footerDetails {
-    margin-right: 0px;
-}
-}
-
-
-
-
 
 
 .shoeName {
@@ -797,93 +681,6 @@ a {
 
 
 
-@media only screen and (max-width: 1300px) {
-
-
-  
-    
-    .columnImage {
-    
-        margin-right: 5px;
-        box-sizing: border-box;
-    }
-    
-    #mainShoe img {
-     max-width: 100%;
-    
-    }
-    
-
-    .size {
-    
-        height: 45px;
-        width: 55px;
-       
-    
-    }
-}
-
-
-@media only screen and (max-width: 1200px) {
-
-.shoeContainerSize {
-    display: flex;
-    flex-direction: column;
- 
-    align-items: center;
-    margin: 0px;
-    
-}
-
-
-#shoeColumn {
-    display: flex;
-    flex-direction: row;
-}
-
-.columnImage {
-
-    margin-right: 5px;
-    box-sizing: border-box;
-}
-
-#mainShoe img {
-    max-width: 96%;
-
-}
-
-
-
- .size {
-    width: 35px;
-    height: 25px;
-   
-    
- }
- .selectContainer  {
-
-align-items: center;
-
-}
-
-.sizeInfo {
-    display: none;
-}
- button.addtoBag {
-    width: 450px;
-    
-   
- }
-
- button.favorite {
-    width: 450px;
-   
- }
- 
-}
-
-
-
 
 
 
@@ -924,12 +721,236 @@ h3 {
 
 
 
-@media only screen and (max-width: 900px) {
-    .description {
- margin-top: 600px;
- margin-left: 20px;
- text-align: center;
-    }}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 700px) {
+        header {
+     height: 170px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     max-width: 100%;
+        
+     }
+        nav {
+        display: none;
+      
+       }
+    
+        .shopCartContainer {
+           
+            align-items: center;
+        }
+    
+        .input {
+            align-items: center;
+           
+           
+           width: 400px;
+           height: 40px;
+           margin-bottom: 20px;
+        }
+    
+        img.logo {
+            width: 70px;
+            height: auto;
+            margin-top: 20px;
+        }
+    
+        .cartNumber {
+            align-items: center;
+            
+        }
+    
+        .shopCartContainer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    
+      }
+    
+
+
+
+      @media only screen and (max-width: 1200px) {
+        .line {
+          width: 100px;
+          
+        }
+    
+        .titleColumn {
+            margin-left: 10px;
+            
+            margin-top: 20px;
+            
+        }
+        .row {
+           margin-top: 20px;
+    
+        }
+      }
+    
+    
+    @media only screen and (max-width: 600px) {
+        .titleColumn {
+            margin-left: 10px;
+            margin-top: -70px;
+            
+        }
+        .row {
+            margin-top: -65px;
+    
+        }
+        
+    }
+      
+
+    @media only screen and (max-width: 1300px) {
+        .model img {
+            max-width: 100%;
+            
+        }
+    
+        .model {
+            margin-top: 10px;
+        }
+    }
+
+
+    @media only screen and (max-width: 1100px) {
+
+        footer {
+            display: flex;
+            flex-direction: column;
+        
+        }
+    
+        .footerContainer {
+            flex-direction: column;
+            height: auto;
+        }
+    
+    
+    .footerList {
+    
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    
+    .footerDetails {
+        margin-right: 0px;
+    }
+    }
+    
+    
+
+    @media only screen and (max-width: 1300px) {
+
+
+  
+    
+        .columnImage {
+        
+            margin-right: 5px;
+            box-sizing: border-box;
+        }
+        
+        #mainShoe img {
+         max-width: 100%;
+        
+        }
+        
+    
+        .size {
+        
+            height: 45px;
+            width: 55px;
+           
+        
+        }
+    }
+    
+    
+    @media only screen and (max-width: 1200px) {
+    
+    .shoeContainerSize {
+        display: flex;
+        flex-direction: column;
+     
+        align-items: center;
+        margin: 0px;
+        
+    }
+    
+    
+    #shoeColumn {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .columnImage {
+    
+        margin-right: 5px;
+        box-sizing: border-box;
+    }
+    
+    #mainShoe img {
+        max-width: 96%;
+    
+    }
+    
+    
+    
+     .size {
+        width: 35px;
+        height: 25px;
+       
+        
+     }
+     .selectContainer  {
+    
+    align-items: center;
+    
+    }
+    
+    .sizeInfo {
+        display: none;
+    }
+     button.addtoBag {
+        width: 100px;
+        
+       
+     }
+    
+     button.favorite {
+        width: 100px;
+       
+     }
+     
+    }
+    
+    
+    
+    @media only screen and (max-width: 900px) {
+        .description {
+     margin-top: 600px;
+     margin-left: 20px;
+     text-align: center;
+        }}
     
