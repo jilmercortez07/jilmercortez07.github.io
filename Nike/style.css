@@ -759,16 +759,17 @@ h3 {
         .input {
             align-items: center;
            
-           
-           width: 400px;
+           margin-top: -90px;
+           width: 300px;
            height: 40px;
-           margin-bottom: 20px;
+           margin-bottom: 15px;
         }
     
         img.logo {
-            width: 70px;
+            width: 50px;
             height: auto;
             margin-top: 20px;
+            align-items: center;
         }
     
         .cartNumber {
@@ -782,13 +783,19 @@ h3 {
             align-items: center;
             margin-bottom: 10px;
         }
+
+        img.shoppingCartImage {
+            width: 20px;
+            height: auto;
+            align-items: center;
+            margin-left: 11px;
+        }
     
-      }
-    
-
-
-
-      @media only screen and (max-width: 1200px) {
+        .BigContainer {
+            margin-top: -25px;
+        }
+      
+     
         .line {
           width: 100px;
           
@@ -804,10 +811,7 @@ h3 {
            margin-top: 20px;
     
         }
-      }
-    
-    
-    @media only screen and (max-width: 600px) {
+  
         .titleColumn {
             margin-left: 10px;
             margin-top: -70px;
@@ -821,7 +825,7 @@ h3 {
     }
       
 
-    @media only screen and (max-width: 1300px) {
+    @media only screen and (max-width: 800px) {
         .model img {
             max-width: 100%;
             
@@ -833,7 +837,7 @@ h3 {
     }
 
 
-    @media only screen and (max-width: 1100px) {
+    @media only screen and (max-width: 800px) {
 
         footer {
             display: flex;
@@ -860,7 +864,7 @@ h3 {
     
     
 
-    @media only screen and (max-width: 1300px) {
+    @media only screen and (max-width: 800px) {
 
 
   
@@ -887,7 +891,7 @@ h3 {
     }
     
     
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: 800px) {
     
     .shoeContainerSize {
         display: flex;
@@ -918,8 +922,9 @@ h3 {
     
     
      .size {
-        width: 35px;
-        height: 25px;
+        width: 45px;
+        height: 35px;
+        
        
         
      }
@@ -928,18 +933,25 @@ h3 {
     align-items: center;
     
     }
-    
+    .buttons {
+        align-items: center;
+        margin-left: -30px;
+    }
     .sizeInfo {
         display: none;
     }
+ 
+    .buttonSection {
+        align-items: center;
+       margin-left: -30px;
+    }
      button.addtoBag {
-        width: 100px;
-        
-       
+        width: 300px;
+   
      }
     
      button.favorite {
-        width: 100px;
+        width: 300px;
        
      }
      
@@ -949,7 +961,7 @@ h3 {
     
     @media only screen and (max-width: 900px) {
         .description {
-     margin-top: 600px;
+     margin-top: 550px;
      margin-left: 20px;
      text-align: center;
         }}
