@@ -81,13 +81,14 @@ h5 {
 
     h6 {
       margin-top:10px;
-      font-size: 30px;
-        margin-left: 160px;
+      font-size: 20px;
+        margin-left: 205px;
         margin-top: -30px;
     }
   
     .container {
-      margin: auto;
+      margin: auto 20px;
+      
     }
     
     h1 {
@@ -95,11 +96,11 @@ h5 {
     }
     
     h4 {
-      font-size: 25px;
+      font-size: 20px;
     }
     
     h5 {
-      font-size: 20px;
-      margin-top: 10px;
+      font-size: 10px;
+      margin-top: -10px;
     }
   }
